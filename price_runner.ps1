@@ -4,9 +4,10 @@
 #prof0ak
 #10-16-2019
 
-# This expects your spreadsheet's first sheet to be two columns
-# first is the name of items you care about as input
-# second is the output of this script
+# This expects your spreadsheet's first sheet to be only two columns
+# First Row = [ ITEMS ] , [ PRICE ]
+# The A column is the name of items you care about as input
+# The B column is the output of this script
 # make other sheets that depend on those prices
 
 $excel_path = "C:\Users\prof0ak\Downloads\WOW_economy_2.xlsx"
