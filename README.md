@@ -6,7 +6,7 @@ This takes price data from Auctionator.lua into a spreadsheet
 * Have Powershell with installed Excel library Workbooks -> Example of the call this uses: https://docs.microsoft.com/en-us/office/vba/api/excel.workbooks.open
 
 # Usage
-0. In game run an auctionator scan
+1. In game run an auctionator scan
 0. Exit game so the data gets out of memory and persisted to the file
 1. Fill a spreadsheet with a list of item names you care about getting the prices for in a single column on the first sheet (rest of sheet is empty)
 2. Make other sheets that depend on the first sheet's prices will show on the second column after running script
